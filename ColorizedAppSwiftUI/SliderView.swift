@@ -19,9 +19,9 @@ struct ColorSliderView: View {
             
             Slider(value: $sliderValue, in: 0...255, step: 1)
                 .tint(tintColor)
-                }
         }
     }
+}
 
 struct ColorSliderView_Previews: PreviewProvider {
     static var previews: some View {
